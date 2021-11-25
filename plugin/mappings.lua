@@ -14,7 +14,7 @@ local plug_mapper = function(mode, key, result)
 end
 
 -- Define Mapleader
-vim.g.mapleader = ' '
+vim.g.mapleader = ','
 
 -- Escape from insert mode
 mapper('i', '<C-c>', '<Esc>')

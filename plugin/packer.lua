@@ -86,7 +86,6 @@ require('packer').startup(function(use)
   -- UI Plugins
   use('glepnir/dashboard-nvim')
   use('nvim-lualine/lualine.nvim')
-  use('p00f/nvim-ts-rainbow')
   use('akinsho/nvim-bufferline.lua')
   use({
     'kyazdani42/nvim-tree.lua',
@@ -119,7 +118,6 @@ require('packer').startup(function(use)
     end,
   })
 
-  use({ 'ellisonleao/glow.nvim', run = 'GlowInstall', opt = true })
 
   use({ 'Pocco81/TrueZen.nvim', opt = true })
 

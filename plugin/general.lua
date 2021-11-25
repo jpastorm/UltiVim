@@ -50,8 +50,8 @@ vim.o.backupcopy = 'yes'
 vim.o.backupdir = vim.fn.expand(vim.fn.stdpath('data') .. '/backup//')
 
 -- Undofiles are truly nice!
-vim.o.undofile = true
-vim.o.undodir = vim.fn.expand(vim.fn.stdpath('data') .. '/undo//')
+--vim.o.undofile = true
+--vim.o.undodir = vim.fn.expand(vim.fn.stdpath('data') .. '/undo//')
 
 -- Shows the effects of a command incrementally, as you type
 vim.o.inccommand = 'split'
