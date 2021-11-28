@@ -80,6 +80,7 @@ plug_mapper('n', '<leader>rn', '<Plug>(coc-rename)')
 
 plug_mapper('n', 'gd', '<Plug>(coc-definition)')
 plug_mapper('n', 'gr', '<Plug>(coc-references)')
+plug_mapper('n', 'gi', '<Plug>(coc-implementation)')
 
 plug_mapper('n', '<leader>ca', '<Plug>(coc-codeaction)')
 plug_mapper('n', '<leader>ga', '<Plug>(coc-codeaction-cursor)')
